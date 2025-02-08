@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#Netfilx GPT
+-- Create React APP
+-- Configurated TailwindCSS
+-- Header
+--Routing of APP
+--Login form
+--sign Up form
+--Form Validation
+--UseRef Hook (is used for storing the value of input field)
+--firebase SetUp
+--Deploying our app to production
+--Create Signup User Account
+--Implemented sign In user API
+--Redux store
+---Implemented sign out
+-- updated profile
+--BugFix: sign up user displayName and profile Picture updated
+--BugFix: if the user is not logged in Redirect/browse to Login Page and vice-versa.
+--Add Hard coded value in a constant files
+--register TMDB API and create an app & get access token
+--Get data from TMDB now playing movies list API
+--Fetching the Trailer_video and Title, description
+--add the trailer video into Redux Store
+--Fetching it from Redux Store
+--USe Hook instead of complexing the component.
+--Made the page more dynamic
+--Make autoplay video
+--fetching and displaying Now playing movies
+--fetching and displaying Popular movies
+--fetching and displaying Top Rated movies
+--fetching and displaying Upcoming movies
+--GPT Search Page
+---GPT Search Bar
+-- (BoNUS) Multi-language feature in our app
+--GPT API integration
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
